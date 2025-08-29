@@ -26,17 +26,17 @@ A ideia resgata a função que, antigamente, era desempenhada pelos "jornalzinho
 
 ## 📋 Sumário
 
-1. [Visão Geral](#visão-geral)  
-2. [Funcionalidades](#funcionalidades)  
-3. [Tecnologias Utilizadas](#tecnologias-utilizadas)  
-4. [Arquitetura do Projeto](#arquitetura-do-projeto)  
-5. [Instalação e Execução](#instalação-e-execução)  
-6. [Variáveis de Ambiente](#variáveis-de-ambiente)  
-7. [Autenticação e Autorização](#autenticação-e-autorização)  
-8. [Validações](#validações)  
-9. [Respostas da API](#respostas-da-api)  
-10. [Contribuindo](#contribuindo)  
-11. [Licença](#licença) 
+1. [Visão Geral](#1-visão-geral)  
+2. [Funcionalidades](#2-funcionalidades)  
+3. [Tecnologias Utilizadas](#3-tecnologias-utilizadas)  
+4. [Arquitetura do Projeto](#4-arquitetura-do-projeto)  
+5. [Instalação e Execução](#5-instalação-e-execução)  
+6. [Variáveis de Ambiente](#6-variáveis-de-ambiente)  
+7. [Autenticação e Autorização](#7-autenticação-e-autorização)  
+8. [Validações](#8-validações)  
+9. [Respostas da API](#9-respostas-da-api)  
+10. [Contribuindo](#10-contribuindo)  
+11. [Licença](#11-licença) 
 
 
 ---
