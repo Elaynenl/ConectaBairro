@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Empreendimentos</title>
+  <link rel="stylesheet" href="/CSS/buscarEmpreedimentos.css">
+</head>
+<body>
+
+   <a href="/inicio" id="btnVoltar">⬅ início</a>
+
+  <div class="container">
+    <h2>Buscar Empreendimentos</h2>
+    <form id="formBusca">
+      <input type="text" id="rua" placeholder="Rua">
+      <input type="text" id="bairro" placeholder="Bairro">
+      <input type="text" id="cidade" placeholder="Cidade">
+      <input type="text" id="estado" placeholder="Estado">
+      <input type="text" id="cep" placeholder="CEP">
+      <input type="text" id="palavraChave" placeholder="Palavra-chave">
+      <button type="submit">Buscar</button>
+    </form>
+
+    <div id="mensagem"></div>
+    <div id="resultados"></div>
+  </div>
+
+  <script src="/JS/buscarEmpreendimentos.js"></script>
+</body>
+</html>

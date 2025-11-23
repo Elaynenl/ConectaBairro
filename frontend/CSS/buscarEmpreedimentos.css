@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../IMG/fundo-conecta-bairro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 0;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: -1;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  width: 800px;
+  max-width: 95%;
+  margin-bottom: 2rem;
+  margin-top: 1rem
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+form input {
+  flex: 1 1 150px;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  padding: 0.6rem 1.2rem;
+  background: #1a9c50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #3aa06a;
+}
+
+#mensagem {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cidade-bloco {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.cidade-bloco h3 {
+  margin-top: 0;
+  color: #1a9c50;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+.cidade-bloco p {
+  margin: 0.3rem 0;
+  color: #444;
+}
+
+.card-empreendimento {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background: white;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.08);
+}
+
+.card-empreendimento h4 {
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+  color: #333;
+}
+
+#btnVoltar {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #1a9c50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+#btnVoltar:hover {
+  background: #3aa06a;
+}
+
+#btnVoltar {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: transparent;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+#btnVoltar:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.redes-icones p {
+  margin: 4px 0; /* espaço entre linhas */
+}
+
+.logo-redes {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+
+
+
+
+

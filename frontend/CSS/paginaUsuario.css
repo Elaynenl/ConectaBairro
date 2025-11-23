@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../IMG/fundo-conecta-bairro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* overlay escuro */
+  z-index: -1;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.opcoes button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  background: #1a9c50;
+  color: white;
+  cursor: pointer;
+}
+
+.opcoes button:hover {
+  background: #3aa06a;
+}
+
+

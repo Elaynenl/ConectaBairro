@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../IMG/fundo-conecta-bairro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.botoes-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.botoes-form button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.botoes-form button[type="submit"] {
+  background-color: #4ac77e;
+  color: white;
+}
+
+.botoes-form button#btnCancelarEdicao {
+  background-color: #b86161;
+  color: white;
+}
+
+input.erro-telefone {
+  border: 2px solid red !important;
+  outline: none !important;
+}
+
+input.erro-telefone:focus {
+  border: 2px solid red !important;
+  outline: none !important;
+}

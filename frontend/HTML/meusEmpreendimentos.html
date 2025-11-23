@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Empreendimentos</title>
+  <link rel="stylesheet" href="/CSS/meusEmpreendimentos.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Meus Empreendimentos</h2>
+    <div id="mensagem"></div>
+    <div id="listaEmpreendimentos"></div>
+  </div>
+
+  
+  <div id="modalEmpreendimento" class="modal">
+    <div class="modal-content">
+      <span class="fechar">&times;</span>
+      <h3 id="modalNome"></h3>
+      <p><strong>Descrição:</strong> <span id="modalDescricao"></span></p>
+      <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+      <p><strong>Telefone:</strong> <span id="modalTelefone"></span></p>
+      <p><strong>Palavras-chave:</strong> <span id="modalPalavras"></span></p>
+      <p><strong>Endereço:</strong> <span id="modalEndereco"></span></p>
+      <div class="acoes">
+        <button id="btnEditar">Editar</button>
+        <button id="btnDeletar">Deletar</button>
+      </div>
+    </div>
+  </div>
+
+   <script src="/JS/meusEmpreendimentos.js"></script>
+
+<button id="btnVoltarMenu" class="btn-voltar">Menu Principal</button>
+
+</body>
+</html>
+

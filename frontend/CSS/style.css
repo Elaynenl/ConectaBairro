@@ -1,0 +1,113 @@
+:root {
+  --cor1: #6C63FF;
+  --cor2: #FF6584;
+  --cor3: #00BFA6;
+  --cor-fundo: #F9F9F9;
+  --cor-texto: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("../IMG/fundo-conecta-bairro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+/* Container com destaque */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  max-width: 500px;
+  width: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--cor1);
+}
+
+p {
+  margin-bottom: 30px;
+  color: var(--cor-texto);
+  font-size: 1.1rem;
+}
+
+.botoes {
+  display: grid;
+  gap: 15px;
+}
+
+.botoes a {
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.botoes a:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.btn-cadastrar {
+  background: var(--cor2);
+}
+
+.btn-buscar {
+  background: var(--cor3);
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 30px 15px;
+    border-radius: 12px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .botoes a {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+}

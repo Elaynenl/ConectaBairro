@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Empreendimento</title>
+  <link rel="stylesheet" href="/CSS/cadastrarEmpreendimento.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro de Empreendimento</h2>
+
+    <form id="formCadastroEmpreendimento">
+      <div class="form-row">
+        <input type="text" id="nome" placeholder="Nome do empreendimento" required>
+        <input type="text" id="telefone" placeholder="Telefone">
+      </div>
+
+      <input type="text" id="descricao" placeholder="Descrição" required>
+
+      <div class="form-row">
+        <input type="text" id="cep" placeholder="CEP" required>
+        <input type="text" id="rua" placeholder="Rua" required>
+      </div>
+
+      <div class="form-row">
+        <input type="text" id="bairro" placeholder="Bairro" required>
+        <input type="text" id="cidade" placeholder="Cidade" required>
+      </div>
+
+      <div class="form-row">
+        <input type="text" id="estado" placeholder="Estado" required>
+        <input type="text" id="numero" placeholder="Número">
+      </div>
+
+      <input type="text" id="complemento" placeholder="Complemento">
+
+      <input type="email" id="email" placeholder="E-mail">
+
+      
+      <p id="avisoEmail" class="aviso-email">
+        ⚠️ O e-mail informado será exibido publicamente na plataforma para facilitar o contato do público com seu empreendimento.
+      </p>
+      
+      <input type="text" id="palavrasChave" placeholder="Palavras-chave (separadas por vírgula)">
+      
+      <div class="redes-sociais">
+                
+        <div class="redes-campos">
+          <img src="/IMG/instagram.png" alt="logo instagram" class="logo-instagram">
+          <input type="text" class="redes" placeholder="Instagram">
+        </div>        
+        
+        <div class="redes-campos">
+          <img src="/IMG/whatsapp.png" alt="logo instagram" class="logo-instagram">
+          <input type="text" class="redes" placeholder="Whatsapp">
+        </div>
+
+      </div>
+      
+      <div class="botoes-form">
+        <button type="submit">Cadastrar</button>
+        <button type="button" id="btnCancelarCadastro">Cancelar</button>
+      </div>
+    </form>
+
+    <div id="mensagem"></div>
+  </div>
+
+   <script src="/JS/cadastrarEmpreendimento.js"></script>
+</body>
+</html>

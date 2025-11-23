@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "64f1a2b3c4d5e6f7g8h9i0",
+    "nome": "Pizzaria do Bairro",
+    "descricao": "Pizzas artesanais com ingredientes locais",
+    "telefone": "85999999999",
+    "email": "pizzaria@bairro.com",
+    "palavrasChave": ["pizza", "artesanal", "bairro"],
+    "endereco": {
+      "cep": "60123456",
+      "rua": "Rua das Flores",
+      "numero": "123",
+      "bairro": "Centro",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "complemento": "Loja 2"
+    },
+    "redesSociais": {
+      "instagram": "@pizzariabairro",
+      "whatsapp": "85988888888"
+    },
+    "criadoPor": "64f1a2b3c4d5e6f7g8h9i1",
+    "cidadeNormalizada": "fortaleza",
+    "bairroNormalizado": "centro",
+    "palavrasChaveNormalizadas": ["pizza", "artesanal", "bairro"]
+  }
+]

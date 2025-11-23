@@ -1,0 +1,10 @@
+[
+  {
+    "_id": "64f1a2b3c4d5e6f7g8h9i1",
+    "nome": "João Silva",
+    "email": "joao.silva@gmail.com",
+    "senhaHash": "$2b$10$abcdef...",
+    "role": "empreendedor",
+    "criadoEm": "2025-11-20T14:30:00Z"
+  }
+]

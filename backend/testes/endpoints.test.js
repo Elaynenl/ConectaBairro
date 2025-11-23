@@ -1,0 +1,244 @@
+import request from "supertest";
+import app from "../src/app.js";
+import {
+  conectarBancoMock,
+  desconectarBancoMock,
+  limparBancoMock
+} from "./setupTestDB.js";
+
+let token;
+let empreendimentoId;
+
+/**
+ * Conecta ao banco em memória antes de todos os testes.
+ */
+beforeAll(async () => {
+  await conectarBancoMock();
+});
+
+/**
+ * Limpa dados do banco após cada teste para garantir isolamento.
+ */
+afterEach(async () => {
+  await limparBancoMock();
+});
+
+/**
+ * Desconecta e encerra banco em memória após todos os testes.
+ */
+afterAll(async () => {
+  await desconectarBancoMock();
+});
+
+/**
+ * Testes de integração para fluxo completo de Usuário e Empreendimentos.
+ */
+describe("Fluxo completo de Usuário e Empreendimentos", () => {
+
+  /**
+   * Testa cadastro de usuário.
+   */
+  it("Deve cadastrar usuário", async () => {
+    const res = await request(app).post("/usuarios/cadastroUsuario").send({
+      nome: "Usuário Teste",
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+
+    expect(res.statusCode).toBe(201);
+    expect(res.body).toHaveProperty("_id");
+    expect(res.body).toHaveProperty("token");
+  }, 15000);
+
+  /**
+   * Testa login de usuário e obtenção de token JWT.
+   */
+  it("Deve autenticar usuário e obter token", async () => {
+    await request(app).post("/usuarios/cadastroUsuario").send({
+      nome: "Usuário Teste",
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+
+    const res = await request(app).post("/usuarios/login").send({
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+
+    expect(res.statusCode).toBe(200);
+    expect(res.body).toHaveProperty("token");
+    token = res.body.token;
+  }, 15000);
+
+  /**
+   * Testa cadastro de empreendimento autenticado.
+   */
+  it("Deve cadastrar empreendimento com token", async () => {
+    await request(app).post("/usuarios/cadastroUsuario").send({
+      nome: "Usuário Teste",
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+
+    const loginRes = await request(app).post("/usuarios/login").send({
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+    token = loginRes.body.token;
+
+    const res = await request(app)
+      .post("/empreendimentos")
+      .set("Authorization", `Bearer ${token}`)
+      .send({
+        nome: "Residencial Fortaleza",
+        descricao: "Empreendimento de teste",
+        endereco: {
+          rua: "Av. Beira Mar",
+          bairro: "Meireles",
+          cidade: "Fortaleza",
+          estado: "CE",
+          cep: "60110-000"
+        },
+        palavrasChave: ["fortaleza", "praia"]
+      });
+
+    expect(res.statusCode).toBe(201);
+    expect(res.body.empreendimento).toHaveProperty("_id");
+    empreendimentoId = res.body.empreendimento._id;
+  }, 15000);
+
+  /**
+   * Testa listagem de empreendimentos.
+   */
+  it("Deve listar empreendimentos", async () => {
+    await request(app).post("/usuarios/cadastroUsuario").send({
+      nome: "Usuário Teste",
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+
+    const loginRes = await request(app).post("/usuarios/login").send({
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+    token = loginRes.body.token;
+
+    const cadastro = await request(app)
+      .post("/empreendimentos")
+      .set("Authorization", `Bearer ${token}`)
+      .send({
+        nome: "Residencial Fortaleza",
+        descricao: "Empreendimento de teste",
+        endereco: {
+          rua: "Av. Beira Mar",
+          bairro: "Meireles",
+          cidade: "Fortaleza",
+          estado: "CE",
+          cep: "60110-000"
+        },
+        palavrasChave: ["fortaleza", "praia"]
+      });
+
+    empreendimentoId = cadastro.body.empreendimento._id;
+
+    const res = await request(app).get("/empreendimentos");
+    expect([200, 404]).toContain(res.statusCode);
+    expect(res.body).toBeDefined();
+  }, 15000);
+
+  /**
+   * Testa edição de empreendimento.
+   */
+  it("Deve editar empreendimento", async () => {
+    await request(app).post("/usuarios/cadastroUsuario").send({
+      nome: "Usuário Teste",
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+
+    const loginRes = await request(app).post("/usuarios/login").send({
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+    token = loginRes.body.token;
+
+    const cadastro = await request(app)
+      .post("/empreendimentos")
+      .set("Authorization", `Bearer ${token}`)
+      .send({
+        nome: "Residencial Fortaleza",
+        descricao: "Empreendimento de teste",
+        endereco: {
+          rua: "Av. Beira Mar",
+          bairro: "Meireles",
+          cidade: "Fortaleza",
+          estado: "CE",
+          cep: "60110-000"
+        },
+        palavrasChave: ["fortaleza", "praia"]
+      });
+
+    empreendimentoId = cadastro.body.empreendimento._id;
+
+    const res = await request(app)
+      .put(`/empreendimentos/${empreendimentoId}`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({
+        nome: "Residencial Fortaleza",
+        descricao: "Descrição atualizada",
+        endereco: {
+          rua: "Av. Beira Mar",
+          bairro: "Meireles",
+          cidade: "Fortaleza",
+          estado: "CE",
+          cep: "60110-000"
+        },
+        palavrasChave: ["fortaleza", "praia"]
+      });
+
+    expect(res.statusCode).toBe(200);
+    expect(res.body.empreendimento.descricao).toBe("Descrição atualizada");
+  }, 15000);
+
+  /**
+   * Testa exclusão de empreendimento.
+   */
+  it("Deve deletar empreendimento", async () => {
+    await request(app).post("/usuarios/cadastroUsuario").send({
+      nome: "Usuário Teste",
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+
+    const loginRes = await request(app).post("/usuarios/login").send({
+      email: "testando@teste.com",
+      senha: "123456"
+    });
+    token = loginRes.body.token;
+
+    const cadastro = await request(app)
+      .post("/empreendimentos")
+      .set("Authorization", `Bearer ${token}`)
+      .send({
+        nome: "Residencial Fortaleza",
+        descricao: "Empreendimento de teste",
+        endereco: {
+          rua: "Av. Beira Mar",
+          bairro: "Meireles",
+          cidade: "Fortaleza",
+          estado: "CE",
+          cep: "60110-000"
+        },
+        palavrasChave: ["fortaleza", "praia"]
+      });
+
+    empreendimentoId = cadastro.body.empreendimento._id;
+
+    const res = await request(app)
+      .delete(`/empreendimentos/${empreendimentoId}`)
+      .set("Authorization", `Bearer ${token}`);
+
+    expect(res.statusCode).toBe(200);
+    expect(res.body.mensagem).toBe("Empreendimento deletado com sucesso");
+  }, 15000);
+});
