@@ -368,7 +368,7 @@ Os empreendedores demonstraram alta receptividade à proposta do ConectaBairro:
 
 **Recorte de algumas respostas do formulário de feedback:**
 
-<img src="./validation/feedback/recorte-respostas-formulario-de-feeedback.jpg" alt="recorte de parte das respostas do formulário de feedback aplicado aos empreendedores">
+<img src="https://imgur.com/shlWauC.png" alt="recorte de parte das respostas do formulário de feedback aplicado aos empreendedores">
 <br><br>
 
 - [**Formulário Aplicado aos empreendedores participantes**](https://forms.gle/9kZtQHvKhxZtTVka6)

@@ -12,7 +12,7 @@ Durante a fase de validação, foram entrevistados **17 empreendedores da regiã
 
   **O contato inicial foi realizado com o Sr Edson Proprietário da empresa Casa da Limpeza**
 
-  <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="./evidence/img/Contato-inicial-Sr-Edson-Casa-da-limpeza.jpeg" width="200" height="auto" /> <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="./evidence/img/Contato-inicial-Sr-Edson-Casa-da-limpeza-2.jpeg" width="200" height="auto"/>
+  <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="https://imgur.com/31Fujav.png" width="200" height="auto" /> <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="https://imgur.com/VWKtxMe.png" width="200" height="auto"/>
 
 ---
 
@@ -23,7 +23,7 @@ Durante a fase de validação, foram entrevistados **17 empreendedores da regiã
   **O contato inicial foi realizado com a Sra Aline - Sócia e Proprietária da empresa Mm's Açaí**
 
   
-  <img alt="Registro de entrevista com a Sra. Aline – Mms' Açaí" src="./evidence/img/Contato-inicial-Sra-Aline-Socia-e-Proprietaria-Mms-Açai.jpeg" width="200" height="auto" />
+  <img alt="Registro de entrevista com a Sra. Aline – Mms' Açaí" src="https://imgur.com/B9DDcYM.png" width="200" height="auto" />
 
 ---
 
@@ -33,7 +33,7 @@ Durante a fase de validação, foram entrevistados **17 empreendedores da regiã
 
   **O contato inicial foi realizado com o Sr Walker Sócio e Proprietário das empresas Papa Burguer e Papa Pizza**
 
-  <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="./evidence/img/Contato-inicial-Sr-Walker-Papa-Burguer.jpeg" width="200" height="auto" /> <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="./evidence/img/Contato-inicial-Sr-Walker-Papa-Burguer-2.jpeg" width="200" height="auto" />
+  <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="https://imgur.com/gNpnht7.png" width="200" height="auto" /> <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="https://imgur.com/7fkQJpC.png" width="200" height="auto" />
 
 
 
@@ -45,7 +45,7 @@ Durante a fase de validação, foram entrevistados **17 empreendedores da regiã
 
   **O contato inicial foi realizado com o Sr Roberto Proprietário da empresa RB Depósito de Água**
 
-  <img alt="Registro de entrevista com Sr. Roberto - Proprietário da RB Depósito de Água" src="./evidence/img/Contato-inicial-Sr-Roberto-RB-Deposito-de-Agua.jpeg" width="200" height="auto" /> 
+  <img alt="Registro de entrevista com Sr. Roberto - Proprietário da RB Depósito de Água" src="https://imgur.com/wpvQCxg.png" width="200" height="auto" /> 
 
 ---
 

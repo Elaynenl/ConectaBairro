@@ -33,7 +33,7 @@ A validação foi conduzida em duas etapas:
 
 ### Casa da Limpeza
 
-<img alt="Sr Edson acessando a plataforma ConectaBairro via mobile" src="./evidence/img/Registro-imagem-Apresentacao-do-site-Sr-Edson-Casa-da-Limpeza.jpeg" width=200 height="auto">
+<img alt="Sr Edson acessando a plataforma ConectaBairro via mobile" src="https://imgur.com/GT72Cmz.png" width=200 height="auto">
 
 
 ### Feedback enviado pelo Sr Edson após validação da plataforma:
@@ -50,7 +50,7 @@ A validação foi conduzida em duas etapas:
 
 A validação da plataforma foi realizada com o Sr. Miguel, Sócio e Proprietário da Mm's Açaí
 
-<img alt="Registro de imagem com o Sr Miguel" src="./evidence/img/Feedback-Sr-Miguel-Mms-Açai.jpeg" width="200" height="auto"> <img alt="Registro de imagem com o Sr Miguel" src="./evidence/img/Sr Miguel Assinando termo de autorização - MMS Açaí.jpeg" width="200" height="auto">
+<img alt="Registro de imagem com o Sr Miguel" src="https://imgur.com/r8pjnW2.png" width="200" height="auto"> <img alt="Registro de imagem com o Sr Miguel" src="https://imgur.com/8sqb3KS.png" width="200" height="auto">
 
 ### **Feedback enviado pelo Sr Miguel após a validação da plataforma**
 
@@ -67,7 +67,7 @@ A validação da plataforma foi realizada com o Sr. Miguel, Sócio e Proprietár
 
 A validação da plataforma foi realizada em duas ocasiões, uma com um dos sócios e proprietários Sr. Douglas e em outra com a Sra Geane, esposa do Proprietário Sr. Douglas, pois o mesmo estava viajando.
 
-<img alt="Registro de imagem com o Sr Douglas" src="./evidence/img/Feedback-Sr-Douglas-Papa-Burguer.jpeg" width="200" height="auto">
+<img alt="Registro de imagem com o Sr Douglas" src="https://imgur.com/YcJU2Gv.png" width="200" height="auto">
 
 
 ### **Feedback enviado pela Sra Jeane após a validação da plataforma**
@@ -83,7 +83,7 @@ A validação da plataforma foi realizada em duas ocasiões, uma com um dos sóc
 
 A validação da plataforma foi realizada com o Sr. Roberto, proprietário da empresa.
 
-<img alt="Registro de imagem com o Sr Roberto" src="./evidence/img/Feedback-Sr-Roberto-RB-Deposito-de-Agua.jpeg" width="200" height="auto">
+<img alt="Registro de imagem com o Sr Roberto" src="https://imgur.com/WfGuL2j.png" width="200" height="auto">
 
 ### **Feedback enviado pelo Sr Roberto após a validação da plataforma**
 
@@ -93,17 +93,13 @@ A validação da plataforma foi realizada com o Sr. Roberto, proprietário da em
 
 [Clique para assistir ao feedback no Youtube](https://youtube.com/shorts/mzJoQKOaaqs?feature=share)
 
-
-
-
 ### Principais feedbacks recebidos
 
 Os empreendedores demonstraram alta receptividade à proposta do ConectaBairro:
 
 **Recorte de algumas respostas do formulário de feedback:**
 
-<img src="./feedback/recorte-respostas-formulario-de-feeedback.jpg" alt="recorte de parte das respostas do formulário de feedback aplicado aos empreendedores">
-<br><br>
+<img src="https://imgur.com/shlWauC.png" alt="recorte de parte das respostas do formulário de feedback aplicado aos empreendedores">
 
 - [**Formulário Aplicado aos empreendedores participantes**](https://forms.gle/9kZtQHvKhxZtTVka6)
 
@@ -116,11 +112,12 @@ Após a coleta dos feedbacks por meio de formulário no Google Forms, verificamo
 Com a funcionalidade implementada o formulário de cadastro dos empreendimentos ficou assim:
 
 **Desktop**
-<img src="./evidence/screenshots_telas/desktop/Tela-de-cadastro-de-empreendimentos-apos-feedback-desktop.jpg" alt="Screenshot da tela de cadastro de empreendimento para telas mobile" width="400" height="auto">
+
+<img src="https://imgur.com/tnIyTo2.png" alt="Screenshot da tela de cadastro de empreendimento para telas mobile" width="400" height="auto">
 
 **Mobile**
 
-<img src="./evidence/screenshots_telas/mobile/Tela-de-cadastro-de-empreendimentos-apos-feedback-mobile.jpg" width="200" height="auto" alt="Screenshot da tela de cadastro de empreendimento para telas mobile">
+<img src="https://imgur.com/oip4Nry.png" width="200" height="auto" alt="Screenshot da tela de cadastro de empreendimento para telas mobile">
 
 
 ### **Resultados e aprendizados obtidos**

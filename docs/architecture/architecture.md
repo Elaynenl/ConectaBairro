@@ -107,7 +107,7 @@ Usuário → Express/Rotas → authMiddleware (JWT) → Controller → [Services
 
 ## Diagrama da Arquitetura
 
-<img alt="gráfico de arquitetura" src="diagrama_arquitetura_api (1).png"/> <br>
+<img alt="gráfico de arquitetura" src="https://imgur.com/9Ck3Y2p.png"/> <br>
 
 
 **O diagrama representa a estrutura conceitual da aplicação, destacando:**
