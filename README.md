@@ -68,27 +68,27 @@ O projeto ConectaBairro contribui diretamente para o Objetivo de Desenvolvimento
 
 #### **Tela de Acesso ao Cadastro e Login**
 
-<img src="./validation/evidence/screenshots_telas/desktop/2-tela-de-acesso-ao-cadastro-e-login-desktop.jpg" width="500" height="auto">
+<img src="https://imgur.com/4J2YdED.png" alt="Descrição da imagem" width="400"> 
 
 #### **Formulário de Cadastro de Usuário**
 
-<img src="./validation/evidence/screenshots_telas/desktop/3-tela-form-cadastro-usuario-desktop.jpg" width="500" height="auto">
+<img src="https://imgur.com/snaqnbG.png" alt="Descrição da imagem" width="400">
 
 #### **Tela de Login**
 
-<img src="./validation/evidence/screenshots_telas/desktop/4-tela-login-desktop.jpg" width="500" height="auto">
+<img src="https://imgur.com/7nQqfnD.png" alt="Descrição da imagem" width="400">
 
 #### **Página de Usuário**
 
-<img src="./validation/evidence/screenshots_telas/desktop/5-tela-pagina-do-usuario-desktop.jpg" width="500" height="auto">
+<img src="https://imgur.com/UgbqdGx.png" alt="Descrição da imagem" width="400">
 
 #### **Formulário de Cadastro de Empreendimentos**
 
-<img src="./validation/evidence/screenshots_telas/desktop/6-tela-form-cadastro-empreendimento-desktop.jpg" width="500" height="auto">
+<img src="https://imgur.com/egAnalZ.png" alt="Descrição da imagem" width="400">
 
 #### **Menu "Meus Empreendimentos**
 
-<img src="./validation/evidence/screenshots_telas/desktop/7-tela-meus-empreendimentos-desktop.jpg" width="500" height="auto">
+<img src="https://imgur.com/LTTVaWA.png" alt="Descrição da imagem" width="400">
 
 ---
 
