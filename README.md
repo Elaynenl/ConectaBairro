@@ -64,7 +64,7 @@ O projeto ConectaBairro contribui diretamente para o Objetivo de Desenvolvimento
 
 #### **Tela Inicial**
 
-<img src="./validation/evidence/screenshots_telas/desktop/1-tela-inicial-conectaBairro-desktop.jpg" width="500" height="auto">
+<img src="https://i.imgur.com/cdIZyBQ.png" alt="Descrição da imagem" width="400"> 
 
 #### **Tela de Acesso ao Cadastro e Login**
 
