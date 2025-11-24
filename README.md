@@ -90,37 +90,52 @@ O projeto ConectaBairro contribui diretamente para o Objetivo de Desenvolvimento
 
 <img src="https://imgur.com/LTTVaWA.png" alt="Descrição da imagem" width="400">
 
+#### **Tela de Busca de Empreendimentos**
+
+<img src="https://imgur.com/keTGsMd.png" alt="Descrição da imagem" width="400">
+
 ---
 
 ### **Mobile**
 
 #### **Tela Inicial**
 
-<img src="./validation/evidence/screenshots_telas/mobile/1-tela-inicial-conectaBairro-mobile.jpg" width="200" height="auto">
+<img src="https://imgur.com/p8VLzDs.png" alt="Descrição da imagem" width="200">
 
 #### **Tela de Acesso ao Cadastro e Login**
 
-<img src="./validation/evidence/screenshots_telas/mobile/2-tela-de-acesso-ao-cadastro-e-login-mobile.jpg" width="200" height="auto">
+<img src="https://imgur.com/8RgliOI.png" alt="Descrição da imagem" width="200">
+
 
 #### **Formulário de Cadastro de Usuário**
 
-<img src="./validation/evidence/screenshots_telas/mobile/3-tela-form-cadastro-usuario-mobile.jpg" width="200" height="auto">
+<img src="https://imgur.com/MSQn8vR.png" alt="Descrição da imagem" width="200">
+
 
 #### **Tela de Login**
 
-<img src="./validation/evidence/screenshots_telas/mobile/4-tela-login-mobile.jpg" width="200" height="auto">
+<img src="https://imgur.com/gO6nVvK.png" alt="Descrição da imagem" width="200">
+
 
 #### **Página de Usuário**
 
-<img src="./validation/evidence/screenshots_telas/mobile/5-tela-pagina-do-usuario-mobile.jpg" width="200" height="auto">
+<img src="https://imgur.com/6NllRmG.png" alt="Descrição da imagem" width="200">
+
 
 #### **Formulário de Cadastro de Empreendimentos**
 
-<img src="./validation/evidence/screenshots_telas/mobile/6-tela-form-cadastro-empreendimento-mobile.jpg" width="200" height="auto">
+<img src="https://imgur.com/MHQjQjP.png" alt="Descrição da imagem" width="200">
+
 
 #### **Menu "Meus Empreendimentos**
 
-<img src="./validation/evidence/screenshots_telas/mobile/7-tela-meus-empreendimentos-mobile.jpg" width="200" height="auto">
+<img src="https://imgur.com/5nD4INv.png" alt="Descrição da imagem" width="200">
+
+
+#### **Tela de Busca de Empreendimentos**
+
+<img src="https://imgur.com/n7GkEHm.png" alt="Descrição da imagem" width="200">
+
 
 ---
 
@@ -321,25 +336,25 @@ Durante a fase de validação, foram entrevistados 17 empreendedores da região,
 
 **Casa da Limpeza** <br> Produtos de limpeza em geral <br> 📍 Rua Ana Gonçalves, 456 – Tauape – CEP: 60130-490
 
- <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="./validation/evidence/img/Contato-inicial-Sr-Edson-Casa-da-limpeza.jpeg" width="200" height="auto" /> <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="./validation/evidence/img/Contato-inicial-Sr-Edson-Casa-da-limpeza-2.jpeg" width="200" height="auto"/>
+ <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="https://imgur.com/31Fujav.png" width="200" height="auto" /> <img alt="Entrevista com Sr. Edson – Casa da Limpeza" src="https://imgur.com/VWKtxMe.png" width="200" height="auto"/>
  
 
 **Mm's Açaí** <br>
  Açaí e gelatos artesanais <br>
  📍 Rua José Justa, 4165 – Tauape – CEP: 60120-290
 
- <img alt="Registro de entrevista com a Sra. Aline – Mms' Açaí" src="./validation/evidence/img/Contato-inicial-Sra-Aline-Socia-e-Proprietaria-Mms-Açai.jpeg" width="200" height="auto" /> <img alt="Registro de imagem com o Sr Miguel" src="./validation/evidence/img/Feedback-Sr-Miguel-Mms-Açai.jpeg" width="200" height="auto"> <img alt="Registro de imagem com o Sr Miguel" src="./validation/evidence/img/Sr Miguel Assinando termo de autorização - MMS Açaí.jpeg" width="200" height="auto">
+ <img alt="Registro de entrevista com a Sra. Aline – Mms' Açaí" src="https://imgur.com/B9DDcYM.png" width="200" height="auto" /> <img alt="Registro de imagem com o Sr Miguel" src="https://imgur.com/r8pjnW2.png" width="200" height="auto"> <img alt="Registro de imagem com o Sr Miguel" src="https://imgur.com/8sqb3KS.png" width="200" height="auto">
 
 
 **PAPA BURGUER / PAPA PIZZA** <br> Pizzas, pastéis e sanduíches com atendimento local e delivery <br> 📍 Rua Carvalho Júnior, 403 – Tauape – CEP: 60130-460
 
- <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="./validation/evidence/img/Contato-inicial-Sr-Walker-Papa-Burguer.jpeg" width="200" height="auto" /> <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="./validation/evidence/img/Contato-inicial-Sr-Walker-Papa-Burguer-2.jpeg" width="200" height="auto" />
+ <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="https://imgur.com/gNpnht7.png" width="200" height="auto" /> <img alt="Registro de entrevista com Sr. Walker – proprietário do Papa Burguer e Papa Pizza" src="https://imgur.com/7fkQJpC.png" width="200" height="auto" />
 
 **RB Depósito de Água** <br>
   Ponto de venda de água mineral <br>
  📍 Rua Capitão Melo, 4250 - Tauape, - CEP: 60120095
 
- <img alt="Registro de entrevista com Sr. Roberto - Proprietário da RB Depósito de Água" src="./validation/evidence/img/Contato-inicial-Sr-Roberto-RB-Deposito-de-Agua.jpeg" width="200" height="auto" /> 
+ <img alt="Registro de entrevista com Sr. Roberto - Proprietário da RB Depósito de Água" src="https://imgur.com/WfGuL2j.png" width="200" height="auto" /> 
 
 ### **Resumo do processo de validação**
 
@@ -368,11 +383,12 @@ Após a coleta dos feedbacks por meio de formulário no Google Forms, verificamo
 Com a funcionalidade implementada o formulário de cadastro dos empreendimentos ficou assim:
 
 **Desktop**
-<img src="./validation/evidence/screenshots_telas/desktop/Tela-de-cadastro-de-empreendimentos-apos-feedback-desktop.jpg" alt="Screenshot da tela de cadastro de empreendimento para telas mobile" width="400" height="auto">
+<img src="https://imgur.com/tnIyTo2.png" width="400" height="auto">
 
 **Mobile**
 
-<img src="./validation/evidence/screenshots_telas/mobile/Tela-de-cadastro-de-empreendimentos-apos-feedback-mobile.jpg" width="200" height="auto" alt="Screenshot da tela de cadastro de empreendimento para telas mobile">
+<img src="https://imgur.com/oip4Nry.png" width="200" height="auto">
+
 
 ### **Resultados e aprendizados obtidos**
 
