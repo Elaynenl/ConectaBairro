@@ -383,6 +383,7 @@ Após a coleta dos feedbacks por meio de formulário no Google Forms, verificamo
 Com a funcionalidade implementada o formulário de cadastro dos empreendimentos ficou assim:
 
 **Desktop**
+
 <img src="https://imgur.com/tnIyTo2.png" width="400" height="auto">
 
 **Mobile**
