@@ -64,35 +64,35 @@ O projeto ConectaBairro contribui diretamente para o Objetivo de Desenvolvimento
 
 #### **Tela Inicial**
 
-<img src="https://i.imgur.com/cdIZyBQ.png" alt="Descrição da imagem" width="400"> 
+<img src="https://i.imgur.com/cdIZyBQ.png" alt="Tela inicial do site versão desktop" width="400"> 
 
 #### **Tela de Acesso ao Cadastro e Login**
 
-<img src="https://imgur.com/4J2YdED.png" alt="Descrição da imagem" width="400"> 
+<img src="https://imgur.com/4J2YdED.png" alt="Tela de acesso ao cadastro e login versão desktop" width="400"> 
 
 #### **Formulário de Cadastro de Usuário**
 
-<img src="https://imgur.com/snaqnbG.png" alt="Descrição da imagem" width="400">
+<img src="https://imgur.com/snaqnbG.png" alt="Formulário de cadastro de usuário versão desktop" width="400">
 
 #### **Tela de Login**
 
-<img src="https://imgur.com/7nQqfnD.png" alt="Descrição da imagem" width="400">
+<img src="https://imgur.com/7nQqfnD.png" alt="Tela de login versão desktop" width="400">
 
 #### **Página de Usuário**
 
-<img src="https://imgur.com/UgbqdGx.png" alt="Descrição da imagem" width="400">
+<img src="https://imgur.com/UgbqdGx.png" alt="página de usuário logado" width="400">
 
 #### **Formulário de Cadastro de Empreendimentos**
 
-<img src="https://imgur.com/egAnalZ.png" alt="Descrição da imagem" width="400">
+<img src="https://imgur.com/egAnalZ.png" alt="Formulário de cadastro de empreendimentos" width="400">
 
 #### **Menu "Meus Empreendimentos**
 
-<img src="https://imgur.com/LTTVaWA.png" alt="Descrição da imagem" width="400">
+<img src="https://imgur.com/LTTVaWA.png" alt="Menu Meus empreendimentos" width="400">
 
 #### **Tela de Busca de Empreendimentos**
 
-<img src="https://imgur.com/keTGsMd.png" alt="Descrição da imagem" width="400">
+<img src="https://imgur.com/keTGsMd.png" alt="Tela de busca de empreendimentos versão desktop" width="400">
 
 ---
 
@@ -100,41 +100,41 @@ O projeto ConectaBairro contribui diretamente para o Objetivo de Desenvolvimento
 
 #### **Tela Inicial**
 
-<img src="https://imgur.com/p8VLzDs.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/p8VLzDs.png" alt="tela inicial do site versão mobile" width="200">
 
 #### **Tela de Acesso ao Cadastro e Login**
 
-<img src="https://imgur.com/8RgliOI.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/8RgliOI.png" alt="tela de acesso ao cadastro e login versão mobile" width="200">
 
 
 #### **Formulário de Cadastro de Usuário**
 
-<img src="https://imgur.com/MSQn8vR.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/MSQn8vR.png" alt="Formulário de cadastro de usuário versão mobile" width="200">
 
 
 #### **Tela de Login**
 
-<img src="https://imgur.com/gO6nVvK.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/gO6nVvK.png" alt="tela de login versão mobile" width="200">
 
 
 #### **Página de Usuário**
 
-<img src="https://imgur.com/6NllRmG.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/6NllRmG.png" alt="página de usuário logado versão mobile" width="200">
 
 
 #### **Formulário de Cadastro de Empreendimentos**
 
-<img src="https://imgur.com/MHQjQjP.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/MHQjQjP.png" alt="Formulário de cadastro de empreendimentos versão mobile" width="200">
 
 
 #### **Menu "Meus Empreendimentos**
 
-<img src="https://imgur.com/5nD4INv.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/5nD4INv.png" alt="Menu Meus empreendimentos versão mobile" width="200">
 
 
 #### **Tela de Busca de Empreendimentos**
 
-<img src="https://imgur.com/n7GkEHm.png" alt="Descrição da imagem" width="200">
+<img src="https://imgur.com/n7GkEHm.png" alt="Tela de busca de empreendimentos versão mobile" width="200">
 
 
 ---
